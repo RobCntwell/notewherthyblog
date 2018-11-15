@@ -1,0 +1,62 @@
+<div class="container-fluid">
+
+ 
+  <div class="jumbotron-fluid ">
+      
+        <h1 class="display-1">notewHERthy</h1>
+        <p class="lead">Ordinary Women. Extraordinary Impact.</p>
+  </div>
+  
+  <div class="navbar">
+    <div class="col"></div>
+    <div class="col-4">
+      <div class="text-center">
+          <ul class="nav justify-content-center">
+              
+              <li class="nav-item" >
+                <a class="nav-link" routerLink="/home" >HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >Recent</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" >CONTACT</a>
+              </li>
+            </ul>
+      </div>
+    </div>
+    <div class="col"></div>
+
+  </div>
+ 
+  
+  
+
+  <div class="row">
+      <div class="col"></div>
+      <div class="col-4">
+          <div *ngFor="let post of blogposts" class="col-md-6">
+            <div class="text-center">
+              
+              <div class="posty">
+                <h4>{{post.name}}</h4>
+                <a routerLink="/profile/{{post.name}}">
+                  <img src="..." alt="..." class="img-thumbnail" >
+                </a>
+                
+              </div>
+            
+            </div>
+          
+          </div>
+      </div>
+      <div class="col"></div>
+  </div>
+
+
+  <div>
+      <span class="d-block text-center">
+        @COPYRIGHT or something goes here
+      </span>
+  </div>
+</div>

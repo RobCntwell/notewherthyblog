@@ -1,0 +1,31 @@
+.jumbotron-fluid {
+    padding:50px;
+    text-align: center;
+    border-bottom:1px solid black;
+    
+    
+    
+}
+
+.nav-item {
+    background-color:rgba(255, 123, 226, 0.349);
+    border: 1px solid black;
+}
+
+.posty {
+    padding:10px;
+    position: relative;
+    box-sizing:border-box;
+}
+
+.img-thumbnail {
+    height: 350px;
+    width: 650px;
+}
+.h2 {
+    text-align: center;
+}
+.d-block {
+    background-color:rgba(247, 7, 195, 0.144);
+    height: 100px;
+}

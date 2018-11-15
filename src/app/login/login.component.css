@@ -1,0 +1,14 @@
+.container-fluid {
+    position: relative;
+    min-height: 100%;
+    margin:0;
+    background-color:rgba(81, 52, 212, 0.562);
+    
+}
+
+.jumbotron {
+    background-color:rgba(212, 52, 52, 0.562);
+    width:100%;
+    text-align: center;
+    
+}
